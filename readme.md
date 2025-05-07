@@ -1,4 +1,8 @@
 # GitHub Codespaces ♥️ .NET 8
+permissions:
+  contents: read # access to check out code and install dependencies
+  - name: Setup Node.js environment
+  uses: actions/setup-node@v4.1.4
 
 Want to try out the latest performance improvements coming with .NET 8 for web development? 
 
