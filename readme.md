@@ -1,5 +1,7 @@
 # GitHub Codespaces ♥️ .NET 8
 
+••https://github.com/PmP-Poland/svg.-.dot/blob/d71d00306421f8c8860bc7a89da53344623dbc51/readme.md=httpsd://github.com/PmP-Poland/svg.-.dot/blob/d71d00306421f8c8860bc7a89da53344623dbc51/readme.md
+
 Want to try out the latest performance improvements coming with .NET 8 for web development? 
 
 This repo builds a Weather API using Minimal APIs, opens Swagger so you can call and test the API, and displays the data in a web application using Blazor with .NET 8. 
