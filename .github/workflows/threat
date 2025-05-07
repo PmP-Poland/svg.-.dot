@@ -1,0 +1,49 @@
+dki?m
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1745005837; x=1745610637; dara=google.com;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=8h87k3yYn4D1xp7OyRU5iOVWwHL9YERZz7osl/MclHI=;
+        b=jajoPK21U6ijMs7XDjB9CNmLq+XFjXfOOyiZNFHupaK56KFzfBG2yKcueFgtE1xt08
+         wZzI1UHWssb/++EFVOgL9MFLUZB3sLHoyiofYy5MVz/3R+2ULF0bXh4Dt0dKGoVFUpFj
+         9kRCM9uR5A6k4gxVjPwUpy1T6bDj2hJoj4vZQ3e/bgwCYSPbwpZyLR2j16P3IwfIu9iK
+         cNUb8KPYde4cTlzEV6lGknChRl0xzODdaVQAKz9R03rasl68GE7o5nYo/F7zvLDMbSAC
+         jLZcvjflSYgLbZE3PnTl1JVqzYqgjbJ5FplqcuM+gEmfLbOjyLBZ5kLMsGp/1F+e4ZPq
+         RJTA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1745005837; x=1745610637;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=8h87k3yYn4D1xp7OyRU5iOVWwHL9YERZz7osl/MclHI=;
+        b=mRaVQ+C9c0QX9uv/AYJvZwXoI+Modl54lllZV2pHzHpk/AyuBTKzILAj+aRosL7A4V
+         AVL4eKhQrHbePKT5cjhkTp1xN98yzw7ULf/GDVpc5FDaP80Ngn1YQioEG+OdiwcfEP9P
+         f9JqvL1cLltYOVNFOV3VL0Y4q8ZIKC3/dRxb8rQqxfYyTVXLg3Fue+edzrAWPOncGmE3
+         GScSAqv5f5bqgHaKH+F91x7P23WXvMJLdQmwUYD6U/JjiaZBZMnnghrgAIZ63gGMo6qv
+         oKEV40FjxyZTongi3UKpyg0+ahAPE3hsdBCVJ1Qa8AHtppgkFosphXhE067XePlB9xbH
+         u0UA==
+X-Forwarded-Encrypted: i=1; AJvYcCUHf/p5O4ByXIj9n/o6ujtAFq4tXOBl72vJ+FZ+6/fJcnbIF1VNYch2UM+c5h+Yi32+Mj5qcxFsu/tW/ZKwKSAEvQUicFjRWiAZ4ES09P4RITXjvUupDWL7xgaoSW7d0BN7tvNb9XMQFT7x@gmail.com, AJvYcCVbWdjIABmlDunIEOd/EgCN7dwci6gisT6hQ6Zp/G1IfmzIZ8ZOg5zh7Dxoz1kLjPTAxZca3NUiuj0O+fSC5wY=@gmail.com, AJvYcCVrFij9qnc6ZiY25bkmBVL4/jo6Kmt7XzDVl1i9HCvTNK1ubHx3+hiO8gUa56ccghOu8gJOfjnHtr9FsK/HprLUIfngiD9jFfc=@gmail.com, AJvYcCX6RAWVgA8Fi6dqIShSJTJjdnExiWnmRxI4x0/aoBcM0ohiAZzxx6otYVr9ShjgyEf7Xxpk71nNZ55hiyPFpa4PXU8cJt9lAnZKTjNOjRvC4KmG7yuDPSh2A8Orfxw9RVIaroMB@gmail.com, AJvYcCXExgXqyoaOthy+UrH8KF0bV4ncv3KRonPDTl+xaOGaq3uEZZBbd4nmPnuKP+YOqG3MCDbKYx8=@gmail.com, AJvYcCXPm+5UybOlIUut4zzdqVhXpvuTQxySh6A7NBo7S9KZTgP39YsdyLW7jrl6Ae8vOyMq2ZGLfvbjjv/X8f9yx+it6MGkezJde8I7oYEr37GZVxvVkbCXbikykjH38eUO@gmail.com, AJvYcCXRK9zmj7w/GHzbmhxdULHw3LU5VrSO4pnvY5f3OEj0bjtzAXQgfohsd5WRYqK1mP4yWZjbbA0bWeW/4D5gNoCiic7H0Wpt89/pAT3ait7y8YKGTrcsPlvf7MHJ+MgIB/1/YMkM2sDdFt4YmSPv4vhdOoE+gkyCQ13VaxqlMgWnkSqCROItbWEbdUpV1EfS@gmail.com, AJvYcCXUIkYiLUqSNdBPFPqzsbHaQlM+A6ACRuzlB3xYnIdyMyyz1pQUA4ViZRFLIFAEdltqrp+fJ1naTBuksnif26MnRMkaW7E=@gmail.com, AJvYcCXbEWBonoj1Dq26T5Cy72m90Mzv8PGZj3aXDoAwf8VirX2R6ytWvoZRwVljMW/TLxqHJ5GyI0GLCqMjDycdNIAHpn6Q0hNo64Whu2LepB+FQSwuYEfyB9Z16/tPyOKUi7g2etQ=@gmail.com
+X-Gm-Message-State: AOJu0Yy1lEfwQo3/fP2HbVckcpte2HGVkX13kCrl7aetYpjMMuEXUwgJ
+	EcW6maXU+oN8RS9EhB2HpKg5mJk86beKuemAGhTGxFjgA+GPg3uWCPVto1+xbxOUA6oqrz85AoU
+	lzSWJinLlc22ZRAiksy3v81pIAy0=
+X-Gm-Gg: ASbGncu2x+EeNw9+sHpvVABpGGjKscixJFfk47dO5TZhDjdPkVhUgR9yfNiXRyL70qJ
+	UBMh5CYC7iUUP89Kdin8dHgFVleu2TdYw8mM5OoNfLHzV6+NaWKL7VF5vZ6xJDQJYOIWIxf2Uv9
+	JUCrFNMQMGrGmsM6P5fra561m5X0N2sJbWsWgsuCIPn2pj5Eg=
+X-Google-Smtp-Source: AGHT+IGF9oV4Yaqd5TnVwIEa2OOsKQQ2gx6Ce/lcgIM2Vh+5+YFfYP+m65ZRP3t8f5cB+ROL4UBhLnB+9eiNk8I7ono=
+X-Received: by 2002:a2e:b8cb:0:b0:307:e498:1254 with SMTP id
+ 38308e7fff4ca-310905793a9mr12458931fa.35.1745005836589; Fri, 18 Apr 2025
+ 12:50:36 -0700 (PDT)
+MIME-Version: 1.0
+From: "Karol PawÅ‚owski" <kjppmppolska@gmail.com>
+Date: Fri, 18 Apr 2025 21:50:24 +0200
+X-Gm-Features: ATxdqUHlAXGzpwyjFg1gILpAXkdG4Bc-M2es-Ln3UmmZSPuU2tLlH9BBvMRMHfM
+Message-ID: <CACy4AOsu8vaMteTvcw5ShjWm0Ybt_DJFJpBjA2Qgh5QT4gj4ew@mail.gmail.com>
+Subject: ðŸ˜‚ðŸ˜˜kjppmppolskahttps://g.dev/kjp pmppl@gmail.com
+To: informacja@kontakt-best.com.pl, Polygonscan <info@polygonscan.com>, //www.pressinfo.pl/images/newsletter_btn_list@gmail.com, IPGNASupport@fiserv.com, ZgÅ‚oÅ›.Spam.i@gmail.com, Od.adresata.Do.adresata@gmail.com, Ci activity <ci_activity@noreply.github.com>, contact@zkproof.org, 
+	//com.android.chrome.FileProvider/images/screenshot/17095142242046571012129295681655---------@gmail.com, ----------content----------Forwardedmessage---------@gmail.com, 2c2d64f84fa140249896f374598a73b7.track%access=full@gmail.com, flavioxxâ€¢notifications@github.com, githib@info.io, "PmPPolska/Ghostwriter.v1.02" <Ghostwriter.v1.02@noreply.github.com>, githubusercontent@org.com, //bip.cbsp.policja.gov.pl/CBS/sticky%tag.track.all.access@gmail.com, all.access.github.com@hotmail.com, correo--correo+github@hotmail.com, hello@apitester.org, https@gmail.com, "immense/Remotely" <Remotely@noreply.github.com>, karoljerzypawlokwski@gmail.com, login.all.gov.pl@hotmail.com
+Cc: pomoc.bohaterom.sdr@interia.pl, kjppmppolska@gmail.org, 
+	"awesome-selfhosted/awesome-selfhosted-data" <awesome-selfhosted-data@noreply.github.com>, Eval-ITOM <eval-itom@manageengine.com>
+Content-Type: multipart/alternative; boundary="0000000000000566a3063312d5ec"
+
+--0000000000000566a3063312d5ec
+Content-Type: text/plain; charset="UTF-8
+
